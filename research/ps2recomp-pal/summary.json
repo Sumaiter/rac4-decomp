@@ -1,0 +1,40 @@
+{
+  "base_commit": "fe6ec0d2e9d209ad3a84dd33a188120ea12f030c",
+  "inventory_ranges": 13713,
+  "classification_counts": {
+    "main": {
+      "already_matched": 2850,
+      "fragment_unverified": 708,
+      "generated_unverified": 5343,
+      "generated_with_unhandled": 22,
+      "new_matching_c": 5
+    },
+    "frontbin": {
+      "generated_unverified": 2612,
+      "generated_with_unhandled": 22,
+      "paired_main_existing_match": 1587,
+      "fragment_unverified": 557,
+      "paired_main_new_match": 5,
+      "already_matched": 2
+    }
+  },
+  "new_matching_canonical_functions": [
+    "func_004985D0",
+    "func_00499AE8",
+    "func_0049BE58",
+    "func_00504BF0",
+    "func_0050FF90"
+  ],
+  "generated_throw_count_per_program": {
+    "main": 636,
+    "frontbin": 636
+  },
+  "index_sha256": "e78557cb96c71b0ad65e0504facaf36994e2f163149fa4eeda2520022f7861d5",
+  "limitations": [
+    "Generated C++ is a translation candidate, not a matching C decompilation.",
+    "Frontend pairs are normalized using OpenRAC metadata, not counted as independent matches.",
+    "Index covers the main/frontend inventory only; level programs are not translated here.",
+    "Instruction comments and runtime throws do not prove semantic correctness or reachability.",
+    "Fragments and embedded data can appear in executable ranges."
+  ]
+}

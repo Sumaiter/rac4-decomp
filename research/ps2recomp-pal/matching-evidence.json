@@ -1,0 +1,70 @@
+[
+  {
+    "name": "func_004985D0",
+    "size": 28,
+    "verdict": "MATCH",
+    "source_sha256": "300b2208aef6631053f898d66e5646f65af08191ecf0c5ad70351189b98dd964",
+    "relocations_verified": [
+      {
+        "offset": 4,
+        "type": 5,
+        "symbol": "D_002F33B8"
+      },
+      {
+        "offset": 12,
+        "type": 6,
+        "symbol": "D_002F33B8"
+      }
+    ]
+  },
+  {
+    "name": "func_0049BE58",
+    "size": 28,
+    "verdict": "MATCH",
+    "source_sha256": "c7b545e60d97367a249c3d54b2f5f8a0b4a0a771110d5d867f2712f0ae52076c",
+    "relocations_verified": [
+      {
+        "offset": 4,
+        "type": 5,
+        "symbol": "D_00306EC0"
+      },
+      {
+        "offset": 12,
+        "type": 6,
+        "symbol": "D_00306EC0"
+      }
+    ]
+  },
+  {
+    "name": "func_00499AE8",
+    "size": 24,
+    "verdict": "MATCH",
+    "source_sha256": "ad598f53f53fbe356918b41aeed5b8784d83c29bdef52060f3bcd8ee4ff6dd48",
+    "relocations_verified": [
+      {
+        "offset": 0,
+        "type": 5,
+        "symbol": "D_002F3508"
+      },
+      {
+        "offset": 8,
+        "type": 6,
+        "symbol": "D_002F3508"
+      }
+    ]
+  },
+  {
+    "name": "func_00504BF0",
+    "size": 20,
+    "verdict": "MATCH",
+    "source_sha256": "80b269ef6e0d4d2f462a091a8f9a840cd3b7c6da625b135aadd9618da1d6f378",
+    "relocations_verified": []
+  },
+  {
+    "name": "func_0050FF90",
+    "size": 28,
+    "verdict": "MATCH",
+    "source_sha256": "810b66852d90b7528cd0947b9fd4cf29cd9b68395f4cbe7e7270b9ccdd09b036",
+    "relocations_verified": []
+  }
+]
